@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SystemParamater>
+  <CmslIndex>SHINKO</CmslIndex>
+  <BaudrateIndex>9600</BaudrateIndex>
+  <ParityIndex>EVEN</ParityIndex>
+  <DatabitIndex>7</DatabitIndex>
+  <StopbitIndex>1</StopbitIndex>
+  <TimeoutIndex>200</TimeoutIndex>
+  <StandbyIndex>0</StandbyIndex>
+  <RetryIndex>1</RetryIndex>
+  <NumberIndex>01</NumberIndex>
+  <AddressIndex>0000</AddressIndex>
+  <CommandIndex>20H</CommandIndex>
+  <DatanumIndex>1</DatanumIndex>
+  <SubAddIndex>0</SubAddIndex>
+  <FileNum>2</FileNum>
+  <Time>211122</Time>
+  <Itemnum>5</Itemnum>
+  <Logcycle>500</Logcycle>
+  <ListCheck>1, 1, 1, 1, 1, </ListCheck>
+  <ListWrite>, , , , , </ListWrite>
+  <ListAddress>00, 00, 0, 00, 00, </ListAddress>
+  <ListName>Item1, Item2, Item3, Item4, Item5, </ListName>
+  <PortIndex>COM1</PortIndex>
+	<PathFolder></PathFolder>
+	<DataLogCheck>1</DataLogCheck>
+	<ErrorStopCheck>0</ErrorStopCheck>
+	<KaisuuStopCheck>0</KaisuuStopCheck>
+  <SyncRunStart>false</SyncRunStart>
+  <EqNameList />
+</SystemParamater>

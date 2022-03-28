@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EEPROM_CHECK", "EEPROM_CHECK.csproj", "{73E10A48-AF73-4F78-B332-94DB084E7176}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D56CB78-808B-402E-900D-560903C496FD}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EEPROM_CHECK_Setup", "..\ComTest_Setup\ComTest_Setup.vdproj", "{9433B2A8-9D22-4C82-83C4-502F9FAC4F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73E10A48-AF73-4F78-B332-94DB084E7176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73E10A48-AF73-4F78-B332-94DB084E7176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73E10A48-AF73-4F78-B332-94DB084E7176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73E10A48-AF73-4F78-B332-94DB084E7176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9433B2A8-9D22-4C82-83C4-502F9FAC4F9C}.Debug|Any CPU.ActiveCfg = Debug
+		{9433B2A8-9D22-4C82-83C4-502F9FAC4F9C}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAB5A09E-E9A4-4855-8732-18357175EC2E}
+	EndGlobalSection
+EndGlobal

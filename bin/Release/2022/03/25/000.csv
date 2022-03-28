@@ -1,0 +1,8 @@
+COM1, 9600, 7, Even, One, 200ms
+Device Number, 01
+, Time, Address, Item Name, WriteValue, Read Value, , Com Error Count, Data Error Count, 
+0, 11:12:05:790, '0000, Item1, , 75, OK, , 
+0, 11:12:06:325, '0000, Item2, , 75, OK, , 
+0, 11:12:06:886, '0000, Item3, , 75, OK, , 
+0, 11:12:07:446, '0000, Item4, , 75, OK, , 
+0, 11:12:08:017, '0000, Item5, , 75, OK, , 

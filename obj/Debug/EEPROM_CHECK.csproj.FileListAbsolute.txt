@@ -1,0 +1,15 @@
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\EEPROM_CHECK.exe
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\EEPROM_CHECK.pdb
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\ShinkoComm_V205.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\ShinkoComm_V205.resources.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\ShinkoComm_V205.pdb
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\ShinkoComm_V205.xml
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Debug\ja\ShinkoComm_V205.resources.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\CommTest.Form1.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\CommTest.Form2.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.Properties.Resources.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.csproj.GenerateResource.cache
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.csproj.CoreCompileInputs.cache
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.csproj.CopyComplete
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.exe
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Debug\EEPROM_CHECK.pdb

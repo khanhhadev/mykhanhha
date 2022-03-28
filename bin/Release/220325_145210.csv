@@ -1,0 +1,13 @@
+Port Name, COM1, 
+Baudrate, 9600, 
+Databit, 7, 
+Parity, Even, 
+Stopbit, One, 
+Timeout, 200ms
+Device Number, 01
+Logging cycle, 200ms
+
+Turn, Time, Address, Item Name, WriteValue, Read Value, Status, Com Error Count, Data Error Count, 
+0, 14:52:57:447, '0000, Item3, 3, ----, NG, 1, 1
+0, 14:52:58:056, '0000, Item4, 4, ----, NG, 1, 1
+0, 14:52:58:662, '0000, Item5, 5, ----, NG, 1, 1

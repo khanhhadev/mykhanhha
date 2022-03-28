@@ -1,0 +1,16 @@
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\CommTest.exe
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\CommTest.pdb
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\ShinkoComm_V205.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\ShinkoComm_V205.resources.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\ShinkoComm_V205.pdb
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\ShinkoComm_V205.xml
+D:\Ha-document\資料\ソフト\設計\CommTest\bin\Release\ja\ShinkoComm_V205.resources.dll
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.Form1.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.Form2.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.Properties.Resources.resources
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.csproj.GenerateResource.cache
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.csproj.CoreCompileInputs.cache
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.csproj.CopyComplete
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.exe
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.pdb
+D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.csproj.AssemblyReference.cache

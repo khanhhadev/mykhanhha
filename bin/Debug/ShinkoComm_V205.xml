@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ShinkoComm_V205
+</name>
+</assembly>
+<members>
+<member name="P:ShinkoComm_V205.My.Resources.Resources.ResourceManager">
+	<summary>
+  このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.Culture">
+	<summary>
+  厳密に型指定されたこのリソース クラスを使用して、すべての検索リソースに対し、
+  現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg001">
+	<summary>
+  Communications port cannot be opend. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg002">
+	<summary>
+  An unknown error has occurred during communication connection. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg003">
+	<summary>
+  Select one from COM1 to COM255. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg004">
+	<summary>
+  Select one; 2400, 4800, 9600, 19200, 38400 に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg005">
+	<summary>
+  Select one; None, Even, Odd に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg006">
+	<summary>
+  Select 7 or 8. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg007">
+	<summary>
+  Select 1 or 2. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg008">
+	<summary>
+  Select one; None, Xon/Xoff, RTS/CTS, RTSXonXoff. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="P:ShinkoComm_V205.My.Resources.Resources.msg009">
+	<summary>
+  Comport is closed. に類似しているローカライズされた文字列を検索します。
+</summary>
+</member><member name="T:ShinkoComm_V205.My.Resources.Resources">
+	<summary>
+  ローカライズされた文字列などを検索するための、厳密に型指定されたリソース クラスです。
+</summary>
+</member>
+</members>
+</doc>
