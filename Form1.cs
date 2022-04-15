@@ -18,12 +18,12 @@ namespace CommTest
         Parity[] Paritybit = { Parity.None, Parity.Odd, Parity.Even };
         StopBits[] Stopbit = { StopBits.One, StopBits.Two };
         bool Connect = false, continous = false;
-        bool first = false, firstwrite = false;
+        bool first = false, firstwrite = false, powererror = false;
         int Itemrow, itemnum;
         int primaWidth, primaHeigth;
         float widthRatio, heightRatio;
         List<Control> control = new List<Control>();
-        string time;
+        string Readfail = "----";
         int kaisuu;
         string pathfile,pathfolder;
         public string pathxml;
@@ -157,7 +157,7 @@ namespace CommTest
                 if (firstwrite)
                 {
                     GetComInfor(RW.Write, RwItm, Itemrow);
-                    if (!Write())
+                    if (!Write(firstwrite))
                     {
                         MessageBox.Show("パスワードが設定できません。再確認ください。", "通信停止", MessageBoxButtons.OK);
                         continous = false;
@@ -171,6 +171,11 @@ namespace CommTest
                         txt_Password.Visible = label3.Visible = false;
                     }
                 };
+                if (powererror)
+                {
+                    GetComInfor(RW.Write, RwItm, Itemrow);
+                    powererror = !Write(powererror);
+                }
                 if (RwItm.SELECT)
                 {
                     try
@@ -178,16 +183,16 @@ namespace CommTest
                         if (!RwItm.JUSTREAD)
                         {
                             GetComInfor(RW.Write, RwItm, Itemrow);
-                            RwItm.ERROR = !Write();
+                            RwItm.ERROR = !Write(firstwrite);
                             
                         }
                         GetComInfor(RW.Read, RwItm, Itemrow);
                         RwItm.READVALUE = Read();
-                        if (RwItm.READVALUE == "----") RwItm.ERROR = true;
+                        if (RwItm.READVALUE == Readfail) RwItm.ERROR = true;
                         if (RwItm.ERROR) RwItm.ERRORNUMBER++;
                         if (!RwItm.JUSTREAD)
                         {
-                            if (RwItm.READVALUE != "----" && RwItm.READVALUE != RwItm.WRITEVALUE)
+                            if (RwItm.READVALUE != Readfail && RwItm.READVALUE != RwItm.WRITEVALUE)
                             {
                                 RwItm.DATAERROR = true;
                                 RwItm.DATAERRORNUMBER++;
@@ -201,9 +206,12 @@ namespace CommTest
                     {
                         RwItm.ERROR = true;
                         RwItm.ERRORNUMBER++;
-                        RwItm.READVALUE = "----";
+                        RwItm.READVALUE = Readfail;
                         OpenPort();
-                        //timer1.Enabled = true;
+                        if (Connect && (!Write(true)))
+                        {
+                            powererror = true;
+                        }                      
                     }
                     PutRowItem(RwItm, Itemrow);
                     if (btn_SaveData.Checked == true) setFile(RwItm, pathfile);
@@ -240,30 +248,32 @@ namespace CommTest
                 {
                     RxDt = STDCo.GetNData(InputStr, 1);
                     if (RxDt == null || RxDt == "")
-                        Readvalue = "----";
+                        Readvalue = Readfail;
                     else
                         Readvalue = String.Format("{0:d}", (int)AtoD(RxDt));
                 }
                 else
                 {
-                    Readvalue = "----";
+                    Readvalue = Readfail;
                 }
             }
             else
             {
-                Readvalue = "----";
+                Readvalue = Readfail;
+                powererror = true;
             }
             return Readvalue;
         }
 
-        bool Write()
+        bool Write(bool firstwr)
         {
             try
             {
                 RWstate = RW.Write;
                 string InputStr;
-                if (firstwrite)
+                if (firstwr)
                 {
+                    OpenPort();
                     SendDT.CmdType = ((char)0x50).ToString();
                     SendDT.SetData = String.Format("{0:X4}", int.Parse(txt_Password.Text));
                     SendDT.Item = "0000";
@@ -275,15 +285,18 @@ namespace CommTest
                 STDCo.SendBufClear();
                 if (InputStr == null || InputStr == "")
                 {
-                    //OpenPort(); 
+                    if (firstwr&&Connect) powererror = true;
                     return false;
                 }
-                else if (firstwrite && InputStr.Substring(0, 1) == ((char)0x15).ToString()) return false;
-                else return true;
+                else if (firstwr&&InputStr.Substring(0, 1) == ((char)0x15).ToString()) return false;
+                //else if (powererror && InputStr.Substring(0, 1) == ((char)0x15).ToString()) return false;
+                else
+                {
+                    return true;
+                }
             }
             catch (Exception)
             {
-                //OpenPort();
                 return false; 
             }
         }

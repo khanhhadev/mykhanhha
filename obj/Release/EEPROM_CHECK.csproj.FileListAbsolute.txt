@@ -8,3 +8,16 @@ D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.
 D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.CopyComplete
 D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.exe
 D:\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.pdb
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\bin\Release\EEPROM_CHECK.exe.config
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\bin\Release\EEPROM_CHECK.exe
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\bin\Release\EEPROM_CHECK.pdb
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.SuggestedBindingRedirects.cache
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.Form1.resources
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\CommTest.Form2.resources
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.Properties.Resources.resources
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.GenerateResource.cache
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.CoreCompileInputs.cache
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.CopyComplete
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.exe
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.pdb
+D:\資料\HA_BackUp\Ha-document\資料\ソフト\設計\CommTest\obj\Release\EEPROM_CHECK.csproj.AssemblyReference.cache
